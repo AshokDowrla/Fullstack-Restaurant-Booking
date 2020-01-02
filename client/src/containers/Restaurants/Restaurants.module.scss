@@ -1,0 +1,65 @@
+
+
+.container{
+    margin-top:5rem;
+
+   
+}
+
+.title{
+    justify-content: center;
+    font-size: 30px;
+    font-family: Sofia;
+    margin-bottom: 5rem;
+}
+
+
+.filterBlock{
+
+    margin-top: 10px;
+    background-color: black;
+}
+
+.header{
+    font-size: 1em;
+    font-weight: 600;
+    color:#007bff;
+}
+
+.filterBody{
+
+    padding: 1em;
+}
+
+
+.order{
+
+    font-size: 11px;
+    color: #89959B;
+}
+
+
+.sortBy{
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+   
+}
+
+// .sortHover:active{
+//     color: saddlebrown;
+// }
+
+
+.sortHover:hover{
+
+    cursor: pointer;
+    color: red;
+    .sortBy{
+        color: red;
+    }
+}
+.sortByTitle{
+    font-weight: 500;
+    color: #007bff;
+}

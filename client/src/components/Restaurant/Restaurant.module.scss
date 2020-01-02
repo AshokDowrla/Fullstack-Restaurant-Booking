@@ -1,0 +1,118 @@
+@import "../../shared/styles.scss";
+
+.restaurantBlock{
+    width: 60%;
+    margin-top: 7px;
+    background-color: black;
+    margin-bottom: 7px;
+    margin-left:20%;
+   
+    
+    
+    
+}
+
+.content{
+
+    padding-bottom: 0 !important;
+}
+
+
+
+.rating{
+    font-size: 16px;
+    line-height: 20px;
+    padding: 5px;
+    border-radius: 1rem;
+    color: #fff;
+    text-align: right;
+    cursor: default;
+    width:36px;
+    font-weight: 700;
+    
+}
+
+.name{
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 24px;
+    color: #007bff;
+   
+}
+
+.votes{
+    color:#89959B;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.divider{
+    border-top: 1px solid #e7e7e7;
+    
+    margin:.7rem 0;
+}
+
+.details{
+    margin: auto;
+    font-size: 18px;
+    color: #89959B;
+}
+
+
+.actions{
+
+    border: 1px solid #e7e7e7;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    padding:10px 30px;
+    margin-top: 15px;
+    margin-left: -1.35em;
+    margin-right: -1.3em;
+    
+}
+
+.item::after{
+
+    position: absolute;
+    content: '';
+    top: 0px;
+    right: 0;
+   
+    width: 1px;
+    background: #e7e7e7;
+    
+    margin-top: -0.7em;
+    padding:2.2em 0em;
+
+    
+}
+
+
+
+.available{
+
+    
+    font-weight: 500;
+    color: #099E44;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.notAvailable{
+
+    
+    font-weight: 500;
+    
+    font-size: 14px;
+  
+    color: red;
+     cursor: pointer;
+    
+}
+
+.notAvailable:hover{
+    
+       cursor: not-allowed;
+   
+}
